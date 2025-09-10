@@ -9,6 +9,15 @@ Example: `AA-111/frontend-fix-something`.
 
 ---
 
+## Quick Download
+
+You don’t need to clone or build the project — simply download the ready-to-use bookmarklet:  
+➡️ [**Download from the latest release**](https://github.com/joelmrtnz/jira-branchname-bookmarklet/releases/latest/download/branchname.bookmarklet.txt)
+
+Then create a new browser bookmark and paste the code from that file in the URL field.
+
+---
+
 ## Features
 
 - Detects the Jira key (e.g., `AA-111`) from URL or page title.
