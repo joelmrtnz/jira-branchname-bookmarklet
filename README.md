@@ -1,4 +1,4 @@
-# 🔖 Jira Branch Name Bookmarklet
+# Jira Branch Name Bookmarklet
 
 ![GitHub release](https://img.shields.io/github/v/release/joelmrtnz/jira-branchname-bookmarklet)
 ![GitHub license](https://img.shields.io/github/license/joelmrtnz/jira-branchname-bookmarklet)
@@ -9,17 +9,17 @@ Example: `AA-111/frontend-fix-something`.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔑 Detects the Jira key (e.g., `AA-111`) from URL or page title.
-- 📝 Builds a safe, URL-friendly slug from the issue summary.
-- 📋 Copies to clipboard (with fallbacks if Clipboard API is blocked).
-- 💻 Works with Jira Cloud and Jira Server.
-- ⚡️ No dependencies, 100% client-side.
+- Detects the Jira key (e.g., `AA-111`) from URL or page title.
+- Builds a safe, URL-friendly slug from the issue summary.
+- Copies to clipboard (with fallbacks if Clipboard API is blocked).
+- Works with Jira Cloud and Jira Server.
+- No dependencies, 100% client-side.
 
 ---
 
-## 🔧 Installation
+## Installation
 
 1. Open [`dist/branchname.bookmarklet.txt`](./dist/branchname.bookmarklet.txt).
 2. Copy **all** its content.
@@ -30,7 +30,7 @@ Example: `AA-111/frontend-fix-something`.
 
 ---
 
-## 🖱️ Usage
+## Usage
 
 1. Open any Jira issue.
 2. Click the `BranchName` bookmark.
@@ -38,7 +38,7 @@ Example: `AA-111/frontend-fix-something`.
 
 ---
 
-## 🛠️ Development
+## Development
 
 ```bash
 git clone git@github.com:joelmrtnz/jira-branchname-bookmarklet.git
@@ -51,7 +51,7 @@ The compiled bookmarklet will be in `dist/branchname.bookmarklet.txt`.
 
 ---
 
-## 🧩 How it works
+## How it works
 
 - Extracts the issue **key** via regex (`[A-Z][A-Z0-9_]+-\d+`) from URL/title.
 - Reads the **summary** using several Jira selectors, with fallbacks to `<meta>` and `<title>`.
@@ -60,13 +60,13 @@ The compiled bookmarklet will be in `dist/branchname.bookmarklet.txt`.
 
 ---
 
-## ⚠️ Notes / Limitations
+## Notes / Limitations
 
 - The key pattern assumes uppercase project keys (standard Jira). If your instance differs, open an issue.
 - Some browsers require a user gesture to allow clipboard access; the script includes fallbacks.
 
 ---
 
-## 📜 License
+## License
 
 MIT — see [LICENSE](./LICENSE).
